@@ -1,2 +1,6 @@
 # reactnative
-React native projects
+## React native projects:
+
+#### 1 - VoiceRecognition : 
+
+It's a simple voice recognition app. This app uses the speech-to-text library called react-native-voice, and was based on a sample of this project. 
