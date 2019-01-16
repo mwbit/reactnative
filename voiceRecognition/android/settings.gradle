@@ -1,3 +1,5 @@
 rootProject.name = 'voiceRecognition'
+include ':react-native-voice', ':app'
+project(':react-native-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
 
 include ':app'
