@@ -5,7 +5,7 @@
 
 It's a simple voice recognition app. This app uses the speech-to-text library called react-native-voice, and it was based on a sample of this project. 
 
-![../master/voiceRecognition/src/img/proj1.png]()
+![](../master/voiceRecognition/src/img/proj1.png)
 
 
 
