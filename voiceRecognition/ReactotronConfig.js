@@ -1,16 +1,10 @@
-import Reactotron from 'reactotron-react-native'
+import Reactotron, { overlay } from 'reactotron-react-native'
 
 Reactotron
-  .configure({
-    name: "React Native Demo"
-  })
-  .useReactNative({
-    asyncStorage: false, 
-    networking: { 
-      ignoreUrls: false
-    },
-    editor: false, 
-    errors: { veto: (stackFrame) => false }, 
-    overlay: false, 
-  })
-  .connect();
+    .configure()
+    .useReactNative()
+    .use(overlay())
+    .connect()
+
+
+export default Reactotron

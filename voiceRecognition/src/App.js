@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, TouchableHighlight} from 'react-native';
 
-import Voice from 'react-native-voice';
-
-class VoiceTest extends Component {
+import Voice from 'react-native-voice'; 
+  
+class App extends Component {
   state = {
-    recognized: '',
+    recognized: '', 
     pitch: '',
     error: '',
     end: '',
@@ -72,7 +72,9 @@ class VoiceTest extends Component {
   };
 
   _startRecognizing = async () => {
+    
     this.setState({
+      
       recognized: '',
       pitch: '',
       error: '',
@@ -81,7 +83,7 @@ class VoiceTest extends Component {
       partialResults: [],
       end: '',
     });
-
+ 
     try {
       await Voice.start('pt-BR');
     } catch (e) {
@@ -178,7 +180,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
-    padding: 10,
+    padding: 10, 
     backgroundColor: '#8080ff',
     width: '100%',
     height: 50
@@ -207,7 +209,7 @@ const styles = StyleSheet.create({
     color: '#B0171F',
     marginBottom: 1,
     fontSize: 16
-  }, 
-});
-
-export default VoiceTest;
+  },    
+});  
+  
+export default App;
