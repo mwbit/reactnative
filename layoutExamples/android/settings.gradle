@@ -1,0 +1,3 @@
+rootProject.name = 'layoutExamples'
+
+include ':app'
