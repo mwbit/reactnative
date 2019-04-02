@@ -1,13 +1,25 @@
+const assetsObject = {
+  loginIcon: require("../../assets/img/login.png"),
+  musicIcon: require("../../assets/img/music.png"),
+  filmIcon: require("../../assets/img/film.png"),
+  storeIcon: require("../../assets/img/store.png"),
+  beerIcon: require("../../assets/img/beer.png"),
+  wineIcon: require("../../assets/img/wine.png"),
+  foodIcon: require("../../assets/img/food.png"),
+  dogIcon: require("../../assets/img/dog.png"),
+  catIcon: require("../../assets/img/cat.png"),
+  countryIcon: require("../../assets/img/country.png")
+};
+
 export const listModels = [
-    { id: 0, name: 'Login' },
-    { id: 1, name: 'Music' },
-    { id: 2, name: 'Films' },
-    { id: 3, name: 'Store' },
-    { id: 4, name: 'Beer' },
-    { id: 5, name: 'Wine' },
-    { id: 6, name: 'Food' },
-    { id: 7, name: 'Dogs' },
-    { id: 8, name: 'Cats' },
-    { id: 9, name: 'Countries' },
-    { id: 10, name: 'Places' }
-]
+  { id: 0, name: "Login", img: assetsObject.loginIcon },
+  { id: 1, name: "Music", img: assetsObject.musicIcon },
+  { id: 2, name: "Films", img: assetsObject.filmIcon },
+  { id: 3, name: "Store", img: assetsObject.storeIcon },
+  { id: 4, name: "Beer", img: assetsObject.beerIcon },
+  { id: 5, name: "Wine", img: assetsObject.wineIcon },
+  { id: 6, name: "Food", img: assetsObject.foodIcon },
+  { id: 7, name: "Dogs", img: assetsObject.dogIcon },
+  { id: 8, name: "Cats", img: assetsObject.catIcon },
+  { id: 9, name: "Countries", img: assetsObject.countryIcon }
+];

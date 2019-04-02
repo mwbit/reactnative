@@ -14,7 +14,7 @@ export default ListItem = (props) => {
     <View style={styles.container}>
       <FlatList
         data = {props.data.sort((a, b) => a.name.localeCompare(b.name))}
-        renderItem={({ item }) => <Item name={item.name} />}
+        renderItem={({ item }) => <Item name={item.name} img={item.img}/>}
         ItemSeparatorComponent={this.renderSeparator}
         keyExtractor={(item, index) => index.toString()}
       />
