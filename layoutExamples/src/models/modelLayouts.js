@@ -7,7 +7,6 @@ const assetsObject = {
   wineIcon: require("../../assets/img/wine.png"),
   foodIcon: require("../../assets/img/food.png"),
   dogIcon: require("../../assets/img/dog.png"),
-  catIcon: require("../../assets/img/cat.png"),
   countryIcon: require("../../assets/img/country.png")
 };
 
@@ -19,7 +18,6 @@ export const listModels = [
   { id: 4, name: "Beer", img: assetsObject.beerIcon },
   { id: 5, name: "Wine", img: assetsObject.wineIcon },
   { id: 6, name: "Food", img: assetsObject.foodIcon },
-  { id: 7, name: "Dogs", img: assetsObject.dogIcon },
-  { id: 8, name: "Cats", img: assetsObject.catIcon },
-  { id: 9, name: "Countries", img: assetsObject.countryIcon }
+  { id: 7, name: "pet", img: assetsObject.dogIcon },
+  { id: 8, name: "Countries", img: assetsObject.countryIcon }
 ];
